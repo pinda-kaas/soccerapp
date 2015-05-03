@@ -27,6 +27,16 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/detail', {
+        templateUrl: 'views/bloggerdetail.html',
+        controller: 'DetailCtrl'
+      })
+      .when('/detailform', {
+        templateUrl: 'views/detailform.html',
+        controller: 'DetailFormCtrl'
+      })
+
+
       .otherwise({
         redirectTo: '/'
       });
