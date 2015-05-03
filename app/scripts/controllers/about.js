@@ -11,7 +11,7 @@ angular.module('soccerAppApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
-      'AngularJS',
+      'dit is net veranderd',
       'Karma'
     ];
   });
