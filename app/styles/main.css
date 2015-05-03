@@ -86,26 +86,29 @@ body {
 {
   margin:3px;
   padding:3px;
-
 }
 
-  img
-  {
-    height:300px;
-
-  }
-
-.floatright
+img
 {
-  /*float:right;*/
+  height:300px;
 }
 
-
-.col-sm-3 .front img {
-  padding: 10px 5px 5px 10px !important;
-  width:100%!important;
+.bottom
+{
+  margin-bottom: 10px;
 }
 
-.col-sm-3{
-  padding:0px!important;
+.playerheader
+{
+  position: absolute;
+  bottom:10px;
+  color:white;
+  font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+  margin:10px;
+
+}
+
+.img-responsive
+{
+  border:2px dashed;
 }
